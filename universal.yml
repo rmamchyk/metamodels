@@ -1,0 +1,187 @@
+_version: "3"
+_name: Untitled Project
+_metadata:
+  base_url: ""
+  controlsEditable: false
+  treeShakeDependencies: false
+  enableSass: false
+  dependencies: []
+  deviceSettings:
+    device:
+      show-by-default: true
+      default: true
+      title: Laptop with MDPI screen
+      screen:
+        horizontal:
+          width: 1280
+          height: 800
+        device-pixel-ratio: 1
+        vertical:
+          width: 800
+          height: 1280
+      capabilities: []
+      user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36
+      type: notebook
+      modes:
+        - title: default
+          orientation: horizontal
+          insets:
+            left: 0
+            top: 0
+            right: 0
+            bottom: 0
+    orientation: horizontal
+    zoomFactor: 1
+web:
+  _metadata:
+    preprocessors:
+      css:
+        type: scss
+        source: ""
+        conflict: false
+  _config:
+    dependencies: ""
+  2u47wg5rf:
+    _id: 2u47wg5rf
+    _display_name: home
+    _metadata:
+      page_def:
+        domain_match_type: full
+        path_match_type: simple
+        reference_urls:
+          - https://j6hz1.csb.app/
+        _pattern: ""
+      script: ""
+      styles: ""
+      timing: immediate
+      timingSelectors: []
+      preprocessors:
+        css:
+          type: scss
+          source: ""
+          conflict: false
+    _disable: false
+    _config:
+      _id: 2u47wg5rf
+      _type: url
+      _is_entry_point: true
+      _predicate:
+        combinator: and
+        rules:
+          - field: web.url
+            operator: regex64_match
+            value: L2h0dHBzPzpcL1wvajZoejEuY3NiLmFwcFwvXC8/KD86JHxcP3wjKS9p
+      _initializers: []
+    zol5f0hz8:
+      _id: zol5f0hz8
+      _display_name: color
+      _metadata: {}
+      _disable: false
+      _values:
+        - _display_name: Noop
+          _metadata:
+            preprocessors:
+              css:
+                type: scss
+                source: ""
+                conflict: false
+            generated_control: true
+          _value:
+            id: 3lrl11u57
+            type: compound
+            _metadata: {}
+            script: ""
+            styles: ""
+            timing: immediate
+            timingSelectors: []
+          _screenshots: []
+          _disable: false
+        - _display_name: red
+          _metadata:
+            preprocessors:
+              css:
+                type: scss
+                source: ""
+                conflict: false
+          _value:
+            id: 4jj3e1ya1
+            type: compound
+            _metadata: {}
+            script: ""
+            styles: |-
+              h1 {
+                color: red;
+              }
+            timing: immediate
+            timingSelectors: []
+          _screenshots: []
+          _disable: false
+        - _display_name: green
+          _metadata:
+            preprocessors:
+              css:
+                type: scss
+                source: ""
+                conflict: false
+          _value:
+            id: r1z834nux
+            type: compound
+            _metadata: {}
+            script: ""
+            styles: |-
+              h1 {
+                color: green;
+              }
+            timing: immediate
+            timingSelectors: []
+          _screenshots: []
+          _disable: false
+    eoxyoeulk:
+      _id: eoxyoeulk
+      _display_name: text
+      _metadata: {}
+      _disable: false
+      _values:
+        - _display_name: Noop
+          _metadata:
+            preprocessors:
+              css:
+                type: scss
+                source: ""
+                conflict: false
+            generated_control: true
+          _value:
+            id: pdo0yeolw
+            type: compound
+            _metadata: {}
+            script: ""
+            styles: ""
+            timing: immediate
+            timingSelectors: []
+          _screenshots: []
+          _disable: false
+        - _display_name: welcome
+          _metadata:
+            preprocessors:
+              css:
+                type: scss
+                source: ""
+                conflict: false
+          _value:
+            id: szzt91dxx
+            type: compound
+            _metadata: {}
+            script: |-
+              const h1 = document.querySelector('h1');
+              h1.innerHTML = 'Welcome, world!';
+              console.log('welcome');
+            styles: ""
+            timing: immediate
+            timingSelectors: []
+          _screenshots: []
+          _disable: false
+  _combination_previews:
+    - uri: evolv-web://view/{account_id}/{metamodel_id}/{metamodel_version}?project_name={project_name}&combination={combination}
+      display_name: Preview in Web Editor
+    - uri: https://j6hz1.csb.app/#evolvCandidateToken={candidate_token}
+      display_name: Preview in Browser
