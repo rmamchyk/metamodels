@@ -171,10 +171,11 @@ web:
             id: szzt91dxx
             type: compound
             _metadata: {}
-            script: |-
-              const h1 = document.querySelector('h1');
-              h1.innerHTML = 'Welcome, world!';
-              console.log('welcome');
+            script: "const h1 = document.querySelector('h1');\r
+
+              h1.innerHTML = 'Welcome, world!';\r
+
+              console.log('Welcome, world');"
             styles: ""
             timing: immediate
             timingSelectors: []
